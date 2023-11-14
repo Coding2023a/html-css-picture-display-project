@@ -62,7 +62,7 @@
 
 31. `<option>`: Represents an option in a `<select>` dropdown
 
-# Basic CSS Properties for Web Styling
+## Basic CSS Properties for Web Styling
 
 1. **Size and Spacing:**
    - `width`: Controls the width of an element.
@@ -70,37 +70,103 @@
    - `margin`: Sets the outer margin of an element.
    - `padding`: Sets the inner padding of an element.
 
+```css
+.example-element {
+    width: 200px;
+    height: 100px;       
+    margin: 10px;
+    padding: 20px;
+} 
+```
+
 2. **Text Styling:**
    - `font-size`: Sets the size of the text.
    - `font-family`: Defines the type of font.
    - `color`: Specifies the color of the text.
 
+```css
+.example-text {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+```
+
 3. **Layout:**
    - `display`: Defines how an element is displayed (block, inline, etc.).
    - `float`: Positions an element to the left or right within its container.
+```css
+.layout-container {
+    display: flex;
+    float: right;
+}
+
+```
 
 4. **Positioning:**
    - `position`: Sets the positioning method (static, relative, absolute, fixed).
+```css
+.positioned-element {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+```
 
 5. **Border and Box Model:**
    - `border`: Sets the border of an element.
    - `box-sizing`: Defines how the width and height of an element are calculated.
+```css
+.bordered-element {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+```
 
 6. **Background:**
    - `background-color`: Sets the background color of an element.
    - `background-image`: Sets the background image of an element.
+```css
+.background-element {
+    background-color: #f0f0f0;
+    background-image: url('background.jpg');
+}
+```
 
 7. **Text Alignment:**
    - `text-align`: Aligns text within its container.
+```css
+.aligned-text {
+    text-align: center;
+}
+```
 
 8. **List Styling:**
    - `list-style-type`: Sets the style of list items.
+```css
+.styled-list {
+    list-style-type: square;
+}
+```
 
 9. **Link Styling:**
    - `text-decoration`: Removes underlines from links (commonly set to `none`).
    - `hover`: Changes the style when the mouse hovers over a link.
+```css
+.styled-link {
+    text-decoration: none;
+}
+.styled-link:hover {
+    color: #FF5733; /* Example color change on hover */
+}
+```
 
 10. **Visibility:**
     - `display: none`: Hides an element.
+```css
+.hidden-element {
+    display: none;
+}
+```
 
 Remember, these basics provide a solid foundation for styling web pages. As you become more comfortable with these concepts, you can gradually explore more advanced properties and techniques.
