@@ -1,5 +1,3 @@
-Certainly! Below is a representation of each HTML tag on the page:
-
 ## HTML tags for reference
 
 1. `<!DOCTYPE>`: This declaration defines the document type and version of HTML being used.
@@ -230,8 +228,6 @@ Certainly! Below is a representation of each HTML tag on the page:
 </select>
 ```
 
-These examples demonstrate the basic usage of each HTML tag, and you can customize them further based on your specific needs.
-
 ## Basic CSS Properties for Web Styling
 
 1. **Size and Spacing:**
@@ -338,5 +334,31 @@ These examples demonstrate the basic usage of each HTML tag, and you can customi
     display: none;
 }
 ```
+## Basic terminal (ubuntu) commands
+- **pwd**
+  - *stands for:* print working directory
+  - *means:* current location in Ubuntu
 
-Remember, these basics provide a solid foundation for styling web pages. As you become more comfortable with these concepts, you can gradually explore more advanced properties and techniques.
+- **ls**
+  - *stands for:* list
+  - *means:* print all the folders and files in this directory 
+
+- **clear**
+  - *means:* clear screen
+
+- **cd**
+  - *means:* change directory
+
+- **touch**
+  - *means:* create a new file
+
+- **mkdir**
+  - *means:* create a new folder
+
+- **explorer.exe**
+  - *means:* open a file in the browser
+
+- **tree**
+  - *means:* shows the file structure
+
+
